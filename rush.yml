@@ -1,0 +1,35 @@
+# For a detailed info on this file and supported fields, check
+# out this link: https://github.com/ShreyashSaitwal/rush-cli/wiki/Metadata-File
+
+---
+name: Baserow           # Caution: DO NOT change the name.
+description: This extension allows you to store the data in any language to <a href="https://baserow.io/" target="_blank">Baserow</a>.<br> This extension is not an official Baserow product. <br> Made By Sumit with Rush. <br> <a href="https://community.kodular.io/u/sumit1334/" target ="_blank">Sumit</a>
+
+version:
+  number: auto        # Auto increments version number when built with '-r' ('--release') flag.
+  name: '1.5.0'
+
+authors:
+  - Sumit
+
+build:
+  # If enabled, you will be able to use Java 8 language features in your extension.
+  desugar:
+    enable: false
+    desugar_deps: false
+
+  # Optimizes your extension on every release build.
+  release:
+    optimize: true
+
+assets:
+  # Extension icon
+  icon: ExtensionIcon.png
+
+  # Extension asset(s)
+#   other:
+#     - ExtensionIcon.png
+
+# Dependencies declared here should be present in the "deps" directory.
+# deps:
+#   - my_awesome_library.jar
